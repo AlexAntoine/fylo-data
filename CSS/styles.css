@@ -20,21 +20,28 @@ body{
 .flex-container {
    display: flex;
    justify-content: center;
+   position: relative;
+   top: 400px;
+}
+
+.square , .rectangle {
+    margin-right: 20px;
 }
 .square {
-    height: 50px;
-    width: 50px;
+    height: 180px;
+    width: 180px;
     background-color: rgb(197, 0, 0);
-    /* display: inline-block; */
-
+    border-radius: 10px 30px 10px 10px;
+   
     /* use border radius here */
 }
 
 .rectangle {
-    /* display: inline-block; */
-    height: 50px;
-    width: 100px;
+    height: 100px;
+    width: 300px;
     background-color: rgb(247, 9, 9);
+    border-radius: 5px 5px 5px 5px;
+   
 
     /* use border radius here */
 }
