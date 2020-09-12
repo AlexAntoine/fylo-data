@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -8,21 +11,27 @@ body{
     font-size: 14px;
 }
 
-.main {
-    position: relative;
-    top:400px;   
+.image-parent {
+    position: absolute;
+    top: 400px;
+    right: 2px;
 }
 
+.flex-container {
+   display: flex;
+   justify-content: center;
+}
 .square {
     height: 50px;
     width: 50px;
     background-color: rgb(197, 0, 0);
+    /* display: inline-block; */
 
     /* use border radius here */
 }
 
-
 .rectangle {
+    /* display: inline-block; */
     height: 50px;
     width: 100px;
     background-color: rgb(247, 9, 9);
